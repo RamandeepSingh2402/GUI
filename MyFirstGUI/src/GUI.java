@@ -29,6 +29,10 @@ public class GUI {
         passwordText.setBounds(100,60,165,25);
         panel.add(passwordText);
 
+        JButton button = new JButton("Login");
+        button.setBounds(80,110,80,25);
+        panel.add(button);
+
         frame.setVisible(true);
     }
 }
