@@ -21,6 +21,14 @@ public class GUI {
         userText.setBounds(100,20,165,25);
         panel.add(userText);
 
+        JLabel passwordLabel = new JLabel("Password");
+        passwordLabel.setBounds(10,60,80,25);
+        panel.add(passwordLabel);
+
+        JPasswordField passwordText = new JPasswordField(20);
+        passwordText.setBounds(100,60,165,25);
+        panel.add(passwordText);
+
         frame.setVisible(true);
     }
 }
